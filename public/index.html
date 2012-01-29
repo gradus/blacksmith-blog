@@ -20,6 +20,34 @@
         <div id="sidebar-node">
           <h2>More Articles</h2>
           <nav id="toc"><li><a href="/playing-with-nodejitsu">playing with nodejitsu</a></li><li><a href="/starting-with-blacksmith">starting with blacksmith</a></li></nav>
+          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 1,
+            interval: 30000,
+            width: 'auto',
+            height: 80,
+            theme: {
+              shell: {
+                background: '#ffffff',
+                color: '#ffffff'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#000000',
+                links: '#5dad3b'
+              }
+            },
+            features: {
+              scrollbar: false,
+              loop: false,
+              live: true,
+              behavior: 'all'
+            }
+          }).render().setUser('krwindham').start();
+          </script>
         </div>
       </div>
       <div id="page">
