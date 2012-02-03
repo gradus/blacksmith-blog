@@ -13,7 +13,7 @@ npm install cupcake -g
 
 cupcake [your project name]
 
-(you will be prompted for the templating and database) 
+(you will be prompted for the templating engine and database type) 
 
 cd [your project name]
 
@@ -27,8 +27,7 @@ visit localhost:3000
 If you open the project with your favorite text editor (hopefully, Vim),
 you will see that the project is all set up as a skeleton for you.  The
 addition of connect-assets was just recently added and you are now able
-to use Stylus and Nib.  This makes it super simple to get started by
-with and express app.
+to use Stylus and Nib.  This makes it super simple to get started with an express app.  Happy hacking!  Thanks Tom.
 
-![Cupcake](starting-with-blacksmith/cupcake.jpeg "Cupcake")
+![Cupcake](cupcake-nodejs-project-generator/cupcake.jpeg "Cupcake")
 
