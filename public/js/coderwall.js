@@ -8,7 +8,7 @@
 
 var coderwallJSONurl ="http://www.coderwall.com/gradus.json?callback=?";
 var height = 75;
-var width = 75;	
+var width = 75;
 
 $(document).ready(function(){
 
