@@ -4,7 +4,7 @@ Since May of 2011, Jack Russell Software has been using node-cloudq (https://git
 
 The idea is that messages are stored as json data in a couchdb server.
 This could be switched to use mongo (which we did use for some time) or
-another datastore like redis.  The queue is just a Broadway(https://github.com/flatiron/broadway) app to use the couchdb plugin. This can be done with a simple post in any language (curl examples are in the readme for cloudq). 
+another datastore like redis.  The queue is just a Broadway (https://github.com/flatiron/broadway) app to use the couchdb plugin. This can be done with a simple post in any language (curl examples are in the readme for cloudq). 
 
 Once a message is posted with a klass name and array of args as json, it
 gets set to 'queued' (json format ex. in readme).  Dequeueing the message is just an http GET, which can be done in any language as well.  After the message has been consumed, whatever process you are using to check for new messages can do whatever you would like with the message args.
