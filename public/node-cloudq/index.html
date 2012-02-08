@@ -1,0 +1,80 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Blacksmith is a static site generator.">
+    <meta name="keywords" content="blacksmith,cms">
+    <title>Node CloudqKris Windham (Not a Ninja)</title>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <link rel="stylesheet" href="/css/application.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/blacksmith.css" type="text/css">
+
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+      <h1 class="title"><a href="/">=&gt; NaN (Not a Ninja)</a></h1>
+      <h2>Kris Windham's blog</h2>
+      </header>
+      <div class="metadata">
+        <div id="sidebar" style="margin-bottom: 32px;">
+          <div class="sidebar-node author">
+            <h2>About This Author:</h2>
+            <ul>
+              <li><strong>Name: </strong><span class="name">Kris Windham</span></li>
+              <li class="if-github"><strong>Github: </strong><span class="github"><a href="https://github.com/gradus">gradus</a></span></li>
+              <li class="if-twitter"><strong>Twitter: </strong><span class="twitter"><a href="https://twitter.com/krwindham">krwindham</a></span></li>
+            </ul>
+          </div>
+          <div class="sidebar-node if-date">
+            <h2>Article Publish Date:</h2>
+            <strong class="date">Tuesday, Feb 7 2012</strong>
+          </div>
+          <div class="sidebar-node if-byThisAuthor">
+            <h2>More Articles By This Author</h2>
+            <nav class="byThisAuthor"><ul><li><a href="/tom-wilson-on-nodejs">tom wilson on nodejs</a></li><li><a href="/playing-with-nodejitsu">playing with nodejitsu</a></li><li><a href="/starting-with-blacksmith">starting with blacksmith</a></li></ul></nav>
+          </div>
+        </div>
+        <div id="page">
+
+          <article class="article">
+            <h1 class="title"><a href="./node-cloudq">Node Cloudq</a></h1>
+            <div class="content"><h3>Using Node Cloudq Server at Jack Russell Software</h3> <p>Since May of 2011, Jack Russell Software has been using node-cloudq (<a href="https://github.com/twilson63/node-cloudq">https://github.com/twilson63/node-cloudq</a>) server for publishing to and consuming messages from a queue to offload back office tasks and various other jobs.  Cloudq has been through a number of manifestations, but has grown to be an invaluable tool for us.  Issues have been near null and the simplicity of use wonderful.  The documentation on github ( <a href="https://github.com/twilson63/node-cloudq/wiki/">https://github.com/twilson63/node-cloudq/wiki/</a> ) has been recently updated and is pretty good, but really is almost uneccessary due to how simpe the concept is.  </p>  <p>The idea is that messages are stored as json data in a couchdb server.
+This could be switched to use mongo (which we did use for some time) or
+another datastore like redis.  The queue is just a Broadway(<a href="https://github.com/flatiron/broadway">https://github.com/flatiron/broadway</a>) app to use the couchdb plugin. This can be done with a simple post in any language (curl examples are in the readme for cloudq). </p>  <p>Once a message is posted with a klass name and array of args as json, it
+gets set to 'queued' (json format ex. in readme).  Dequeueing the message is just an http GET, which can be done in any language as well.  After the message has been consumed, whatever process you are using to check for new messages can do whatever you would like with the message args.</p>  <p>a quick example of dequeing a message in ruby using the ruby cloudq
+client:</p>  <p><a href="https://github.com/twilson63/cloudq_client">https://github.com/twilson63/cloudq_client</a></p>  <pre><code><span class="identifier"><span class="keyword">require</span></span> <span class="string">'cloudq'</span>
+<span class="identifier">queues</span> = [<span class="string">'do_something'</span>]
+
+<span class="constant">Cloudq::Worker</span>.<span class="identifier"><span class="keymethods">new</span></span>(*<span class="identifier">queues</span>).<span class="identifier">run</span> <span class="identifier"><span class="keyword">do</span></span>
+  <span class="identifier"><span class="keymethods">sleep</span></span> <span class="number">5</span>
+<span class="identifier"><span class="keyword">end</span></span>
+
+<span class="class"><span class="keyword">class</span> <span class="title">DoSomething</span></span>
+  <span class="function"><span class="keyword">def</span> <span class="title"><span class="keyword">self</span></span>.<span class="title">perform</span><span class="params">(*<span class="identifier">args</span>)</span></span>
+    <span class="constant">SomeClass</span>.<span class="identifier">perform_a_method_with_args</span>
+  <span class="identifier"><span class="keyword">end</span></span>
+<span class="identifier"><span class="keyword">end</span></span>
+</code></pre> <p>There is also a node client ( <a href="https://github.com/twilson63/node-cloudq-client">https://github.com/twilson63/node-cloudq-client</a> )
+and a few others (even one in C#), but it is very simple to roll your own in any language desired.  </p>  <p>CloudQ has been a very helpful tool to have in our back pocket and 'just
+works' almost with out fail.</p>  <p>If you have a chance, it is definitely worth experimenting with.  There
+are many tools that can accomplish the same thing, but this is the
+simplest, most versatile one I know of.  Thanks yet again, Tom, for making our
+lives a little easier with such a simple piece of software.</p>  <p><img src="node-cloudq/cloudq.png" alt="CloudQ" title="CloudQ"></p> </div>
+          </article>
+
+          <script type="text/javascript" src="/js/jquery.js"></script>
+        </div>
+
+        <footer id="footer">
+          <hr>
+          <p><a href="/">Blacksmith</a></p>
+          <ul>
+            <li>Powered by <a href="http://nodejitsu.com">Nodejitsu</a> / styled with <a href="http://quotedprintable.com/pages/scribbish">scribbish</a></li>
+          </ul>
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>
