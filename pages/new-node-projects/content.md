@@ -29,6 +29,10 @@ this.  It is a wonderful way to write templates in coffeescript.
   * https://github.com/milewise/mongode
   * https://github.com/gradus/nan
 
+and one last one by Tom worth mentioning that I think is going to be great.
+
+  * https://github.com/beautifulnode/fortknox
+
 ![NAN](new-node-projects/nan.png "Not a Ninja")
 
   
