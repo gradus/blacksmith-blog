@@ -10,12 +10,14 @@ And of course I have to give a big shout out to the guys at Nodejitsu for allowi
 The last one on the list is actually a basic Rails spree shopping cart I
 have set up online to sell my => NaN (Not a Ninja) gear
 (http://not-a-ninja.herokuapp.com).  As you can tell I am clearly 'Not a
-Ninja'.  Jeff Squiresof Rails Dog motivated me to get this up and running with a
+Ninja'.  Jeff Squires of Rails Dog motivated me to get this up and running with a
 wonderful presentation on Spree at the Charleston Ruby Users group
 
-I have recently taken over my own version of CoffeeKup, called CoffeeCup (
-https://github.com/gradus/coffeecup ) and will be actively maintaining
-this.  It is a wonderful way to write templates in coffeescript.
+I have recently taken over my own version of CoffeeKup, called CoffeeCup.
+
+https://github.com/gradus/coffeecup 
+
+I will be actively maintaining it and contributions are more than welcome.  It is a wonderful way to write templates in coffeescript.
 
 
   * https://github.com/gradus/surf-scoreboard

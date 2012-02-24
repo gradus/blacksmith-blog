@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Fri, 24 Feb 2012 04:26:44 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="/">=&gt; NaN (Not a Ninja)</a>]]></title><description><![CDATA[<h5>List of some new node projects I have been involved with or experimenting with.</h5>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Fri, 24 Feb 2012 04:29:55 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="/">=&gt; NaN (Not a Ninja)</a>]]></title><description><![CDATA[<h5>List of some new node projects I have been involved with or experimenting with.</h5>
 <p>Just wanted to list a few nodeJS repos that I have been playing with. Diving into new technologies and offering some contributions. Basically, just experimentations I have been doing over the past few weeks.  Want to give a big thanks to Tom Wilson for teaching me the mediator pattern and offering the Linchpin npm module and basically putting up with my craziness while pairing with me.  
 
 
@@ -13,13 +13,17 @@
 <p>The last one on the list is actually a basic Rails spree shopping cart I
 have set up online to sell my =&gt; NaN (Not a Ninja) gear
 (<a href="http://not-a-ninja.herokuapp.com">http://not-a-ninja.herokuapp.com</a>).  As you can tell I am clearly 'Not a
-Ninja'.  Jeff Squiresof Rails Dog motivated me to get this up and running with a
+Ninja'.  Jeff Squires of Rails Dog motivated me to get this up and running with a
 wonderful presentation on Spree at the Charleston Ruby Users group
 
 </p>
-<p>I have recently taken over my own version of CoffeeKup, called CoffeeCup (
-<a href="https://github.com/gradus/coffeecup">https://github.com/gradus/coffeecup</a> ) and will be actively maintaining
-this.  It is a wonderful way to write templates in coffeescript.
+<p>I have recently taken over my own version of CoffeeKup, called CoffeeCup.
+
+</p>
+<p><a href="https://github.com/gradus/coffeecup">https://github.com/gradus/coffeecup</a> 
+
+</p>
+<p>I will be actively maintaining it and contributions are more than welcome.  It is a wonderful way to write templates in coffeescript.
 
 
 </p>
