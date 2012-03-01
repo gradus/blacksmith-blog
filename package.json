@@ -2,7 +2,7 @@
   "author": "Nodejitsu <info@nodejitsu.com>",
   "name": "krwindham",
   "description": "A simple blacksmith blog using Scribbish",
-  "version": "0.0.2-25",
+  "version": "0.0.2-26",
   "homepage": "https://github.com/flatiron/blacksmith",
   "repository": {
     "type": "git",
@@ -12,7 +12,11 @@
     "node": "*"
   },
   "dependencies": {
-    "http-server": "0.2.x"
+    "http-server": "0.2.x",
+    "colors": "*",
+    "optimist": "*",
+    "wordwrap": "*",
+    "node-static": "*"
   },
   "devDependencies": {},
   "scripts": {
