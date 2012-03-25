@@ -7,7 +7,7 @@ In the past month I have made contributions to:
 
 #####NodeJS projects.
 
-  *  [Nodster](http://nodester.com)
+  *  [Nodester](http://nodester.com)
   *  [NPM](https://github.com/isaacs/npm)
   *  [Jitsu](https://github.com/nodejitsu/jitsu)
 
@@ -16,7 +16,7 @@ In the past month I have made contributions to:
   *  [rquery-activerecord](http://rubygems.org/gems/rquery-activerecord)
 
 I have written several examples of how to integrate various node tools
-into frameworks and cloned what appears to be an abondoned project tht I love called [CoffeeCup](https://github.com/gradus/coffeecup). It is a way to write you templates in [CoffeeScript](http://coffescript.org).  This has spawned some wonderful new ideas from Tom Wilson.
+into frameworks and cloned what appears to be an abondoned project tht I love called [CoffeeCup](https://github.com/gradus/coffeecup). It is a way to write you templates in [CoffeeScript](http://coffeescript.org).  This has spawned some wonderful new ideas from Tom Wilson.
 
   * [Creamer](https://github.com/twilson63/creamer)
   * [CoffeeCup Helpers](https://github.com/twilson63/coffeecup-helpers)
@@ -24,7 +24,7 @@ into frameworks and cloned what appears to be an abondoned project tht I love ca
 Currently we are working on some [Tako](https://github.com/mikeal/tako)
 and [Flatiron](https://github.com/flatiron/flatiron) examples to
 integrate into CoffeeCup.  I am very excited about the roadmap we are
-planning for [CoffeeScript](http://coffescript.org) templating and all
+planning for [CoffeeScript](http://coffeescript.org) templating and all
 of the hard work Tom has put into making this happen.
 
 In addition, I have created my first npm module and a few various other
@@ -40,7 +40,7 @@ Just follow a couple of steps and you will be experiencing the
 gratification that I have felt from trying to better the tools that I
 use for myself and others that use them.
 
-1.  You must have a [github](https://github.com]) account.  I am assuming that
+1.  You must have a [github](https://github.com) account.  I am assuming that
     the readers of this article understand github and how the following
 processes work.
 2.  Find a project that you like, use regularly or are interested in learning.
@@ -65,7 +65,7 @@ few lines or removing to fix.
    actually being a contributor as opposed to a user of software.
 
 
-Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to [Coderwall](http://coderwall.com) for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, [Jack Russell Software](http://jackhq.com) has managed to stay in the top thirty contributors for some time due to our many individual contributions to open source software in our spare time. Visit the [Coderwall Leaderboard](http://coderwall/leaderboard) to see the top open source contributors. You can also visit our [Jack Russell Team Page](http://coderwall.com/teams/4f27194a973bf00004000565) or my [personal Coderwall profile page](http://coderwall.com/gradus)
+Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to [Coderwall](http://coderwall.com) for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, [Jack Russell Software](http://jackhq.com) has managed to stay in the top thirty contributors for some time due to our many individual contributions to open source software in our spare time. Visit the [Coderwall Leaderboard](http://coderwall.com/leaderboard) to see the top open source contributors. You can also visit our [Jack Russell Team Page](http://coderwall.com/teams/4f27194a973bf00004000565) or my [personal Coderwall profile page](http://coderwall.com/gradus)
 
 I do want to take time to thank teams like [Nodejitsu](http://nodejitsu.com/) and [Nodester](http://nodester.com) for providing many open source tools to develop and deploy one of my new favorite technologies and what I feel could be a major player in the next few years, [nodeJS](http://nodejs.org).
 
