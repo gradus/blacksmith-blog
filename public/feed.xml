@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 25 Mar 2012 00:55:58 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="./contributing-to-open-source">contributing to open source</a>]]></title><description><![CDATA[<h3>Open source Contributions</h3>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 25 Mar 2012 01:01:38 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="./contributing-to-open-source">contributing to open source</a>]]></title><description><![CDATA[<h3>Open source Contributions</h3>
 <p>Recently, I have really made a push to start contributing as much of my
 spare time as possible to open source.  I have to first start out by saying I feel github is the most wonderful tool created for making this possible.
 
@@ -54,15 +54,14 @@ processes work.</li>
 source code.</li>
 <li>At the very least, study the code and see if you can find something
 that might be a nice addition or bug fix and submit an issue.</li>
-<li>Start by helping improve documentation of fixing minor issues or
-bugs.  This will help you get to know the code better.</li>
+<li>Start by helping improve documentation or fixing minor bugs.<br>This will help you get to know the code better.</li>
 <li>Usually, there will be some issues in a project that are
 simple and it is just a matter of tracking down the code and adding a
 few lines or removing to fix.</li>
 </ol>
 <h5>There are a few advantages to contributing to open source</h5>
 <ol>
-<li>You have the control to help better the tools you use.</li>
+<li>You have the control to help make better the tools you use.</li>
 <li>You have the ability to make these tools better for others to use.</li>
 <li>You take the time to read other people's code which, in a lot of cases can make you a better programmer.</li>
 <li>You are learning and expanding your knowledge outside of your
@@ -70,13 +69,13 @@ everyday work routine.</li>
 <li>You will get a feeling of satisfaction that can only be explained by
 actually being a contributor as opposed to a user of software.</li>
 </ol>
-<p>Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to <a href="http://coderwall.com">Coderwall</a> for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, <a href="http://jackhq.com">Jack Russell Software</a> has managed to stay in the top thirty contributors for sometime due to our many individual contributions to open source software in our spare time. Visit the <a href="http://coderwall/leaderboard">Coderwall Leaderboard</a> to see the top open source contributors. You can also visit our <a href="http://coderwall.com/teams/4f27194a973bf00004000565">Jack Russell Team Page</a> or my <a href="http://coderwall.com/gradus">personal Coderwall profile page</a>
+<p>Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to <a href="http://coderwall.com">Coderwall</a> for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, <a href="http://jackhq.com">Jack Russell Software</a> has managed to stay in the top thirty contributors for some time due to our many individual contributions to open source software in our spare time. Visit the <a href="http://coderwall/leaderboard">Coderwall Leaderboard</a> to see the top open source contributors. You can also visit our <a href="http://coderwall.com/teams/4f27194a973bf00004000565">Jack Russell Team Page</a> or my <a href="http://coderwall.com/gradus">personal Coderwall profile page</a>
 
 </p>
 <p>I do want to take time to thank teams like <a href="http://nodejitsu.com/">Nodejitsu</a> and <a href="http://nodester.com">Nodester</a> for providing many open source tools to develop and deploy one of my new favorite technologies and what I feel could be a major player in the next few years, <a href="http://nodejs.org">nodeJS</a>.
 
 </p>
-<p>Open source is, in my opinion, the best way to develop good software.  The idea of having as many eyes as possible on the codebase and making suggestions and fixes is definitely preferable to a select team of programmers managing everything.
+<p>Open source is, in my opinion, the best way to develop good software.  The idea of having as many eyes as possible on the codebase and making suggestions and fixes is moste definitely preferable to a select team of programmers managing everything.
 
 </p>
 <p><img src="contributing-to-open-source/Not-A-Ninja-TM.jpg" alt="Not a Ninja">

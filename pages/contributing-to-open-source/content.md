@@ -48,15 +48,15 @@ processes work.
     source code.
 3.  At the very least, study the code and see if you can find something
     that might be a nice addition or bug fix and submit an issue.
-4.  Start by helping improve documentation of fixing minor issues or
-    bugs.  This will help you get to know the code better.
+4.  Start by helping improve documentation or fixing minor bugs.  
+    This will help you get to know the code better.
 5.  Usually, there will be some issues in a project that are
     simple and it is just a matter of tracking down the code and adding a
 few lines or removing to fix.
 
 ##### There are a few advantages to contributing to open source
 
-1. You have the control to help better the tools you use.
+1. You have the control to help make better the tools you use.
 2. You have the ability to make these tools better for others to use.
 3. You take the time to read other people's code which, in a lot of cases can make you a better programmer.
 4. You are learning and expanding your knowledge outside of your
@@ -65,10 +65,10 @@ few lines or removing to fix.
    actually being a contributor as opposed to a user of software.
 
 
-Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to [Coderwall](http://coderwall.com) for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, [Jack Russell Software](http://jackhq.com) has managed to stay in the top thirty contributors for sometime due to our many individual contributions to open source software in our spare time. Visit the [Coderwall Leaderboard](http://coderwall/leaderboard) to see the top open source contributors. You can also visit our [Jack Russell Team Page](http://coderwall.com/teams/4f27194a973bf00004000565) or my [personal Coderwall profile page](http://coderwall.com/gradus)
+Thanks to github for making it so easy to find, track and contribute to open source software. Thank you, also, to [Coderwall](http://coderwall.com) for making a fun game out of contributing by giving developers and teams badges and awards that encourage open source software.  My team, [Jack Russell Software](http://jackhq.com) has managed to stay in the top thirty contributors for some time due to our many individual contributions to open source software in our spare time. Visit the [Coderwall Leaderboard](http://coderwall/leaderboard) to see the top open source contributors. You can also visit our [Jack Russell Team Page](http://coderwall.com/teams/4f27194a973bf00004000565) or my [personal Coderwall profile page](http://coderwall.com/gradus)
 
 I do want to take time to thank teams like [Nodejitsu](http://nodejitsu.com/) and [Nodester](http://nodester.com) for providing many open source tools to develop and deploy one of my new favorite technologies and what I feel could be a major player in the next few years, [nodeJS](http://nodejs.org).
 
-Open source is, in my opinion, the best way to develop good software.  The idea of having as many eyes as possible on the codebase and making suggestions and fixes is definitely preferable to a select team of programmers managing everything.
+Open source is, in my opinion, the best way to develop good software.  The idea of having as many eyes as possible on the codebase and making suggestions and fixes is moste definitely preferable to a select team of programmers managing everything.
 
 ![Not a Ninja](contributing-to-open-source/Not-A-Ninja-TM.jpg)
