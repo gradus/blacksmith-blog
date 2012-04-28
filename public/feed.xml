@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 25 Mar 2012 01:10:14 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="./contributing-to-open-source">contributing to open source</a>]]></title><description><![CDATA[<h3>Open source Contributions</h3>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://github.com/dylan/node-rss</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sat, 28 Apr 2012 01:00:29 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="./contributing-to-open-source">contributing to open source</a>]]></title><description><![CDATA[<h3>Open source Contributions</h3>
 <p>Recently, I have really made a push to start contributing as much of my
 spare time as possible to open source.  I have to first start out by saying I feel github is the most wonderful tool created for making this possible.
 
@@ -18,7 +18,7 @@ spare time as possible to open source.  I have to first start out by saying I fe
 <li><a href="http://rubygems.org/gems/rquery-activerecord">rquery-activerecord</a></li>
 </ul>
 <p>I have written several examples of how to integrate various node tools
-into frameworks and cloned what appears to be an abondoned project tht I love called <a href="https://github.com/gradus/coffeecup">CoffeeCup</a>. It is a way to write you templates in <a href="http://coffeescript.org">CoffeeScript</a>.  This has spawned some wonderful new ideas from Tom Wilson.
+into frameworks and cloned what appears to be an abondoned project tht I love called <a href="https://github.com/gradus/coffeecup">CoffeeCup</a>. It is a way to write your templates in <a href="http://coffeescript.org">CoffeeScript</a>.  This has spawned some wonderful new ideas from Tom Wilson.
 
 </p>
 <ul>

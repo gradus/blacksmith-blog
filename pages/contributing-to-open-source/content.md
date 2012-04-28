@@ -16,7 +16,7 @@ In the past month I have made contributions to:
   *  [rquery-activerecord](http://rubygems.org/gems/rquery-activerecord)
 
 I have written several examples of how to integrate various node tools
-into frameworks and cloned what appears to be an abondoned project tht I love called [CoffeeCup](https://github.com/gradus/coffeecup). It is a way to write you templates in [CoffeeScript](http://coffeescript.org).  This has spawned some wonderful new ideas from Tom Wilson.
+into frameworks and cloned what appears to be an abondoned project tht I love called [CoffeeCup](https://github.com/gradus/coffeecup). It is a way to write your templates in [CoffeeScript](http://coffeescript.org).  This has spawned some wonderful new ideas from Tom Wilson.
 
   * [Creamer](https://github.com/twilson63/creamer)
   * [CoffeeCup Helpers](https://github.com/twilson63/coffeecup-helpers)
